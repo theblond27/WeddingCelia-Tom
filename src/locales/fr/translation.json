@@ -16,7 +16,11 @@
   "look": "Jetez un oeil à leur site internet:",
   "book": "Pour réserver, utilisez la référence #177010",
 
-  "rsvp": "RSVP"
-  
-  
+  "rsvp": "RSVP",
+  "accept": "Accepte avec joie",
+  "refus": "Refuse avec regret",
+  "email": "Votre email:",
+  "name": "Noms des invités:",
+  "dietery ": "Exigences diététiques:",
+  "send": "Envoyer"
 }

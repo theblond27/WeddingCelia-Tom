@@ -18,10 +18,10 @@ export default function Modal({ open, onClose, children}) {
     <div  className={'mt-80 flex justify-center items-center'}>
       {/* modal */}
       <div className={'bg-cadre rounded-xl shadow p-12'} defaultValue={selectedLanguage} onChange={chooseLanguage}>
-        <select size="3" onChange={chooseLanguage} className="bg-cadre mt-">  
-            <option onClick={onClose} value="fr">Francais</option>
-            <option onClick={onClose} value="en">English</option>
-            <option onClick={onClose} value="jp">Japan</option>
+        <select size='3'onChange={chooseLanguage} className="bg-cadre w-28 h-28 text-center text-s">  
+            <option className="cursor-pointer mb-4 text-text text-xl" onClick={onClose} value="fr">Francais</option>
+            <option className="cursor-pointer mb-4 text-text text-xl" onClick={onClose} value="en">English</option>
+            <option className="cursor-pointer text-text text-xl" onClick={onClose} value="jp">Japan</option>
         </select>
       </div>
     </div>

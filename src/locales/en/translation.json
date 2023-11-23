@@ -16,7 +16,11 @@
   "look": "Have a look at their website:",
   "book": "To book, use the reference #177010",
 
-  "rsvp": "RSVP"
-  
-  
+  "rsvp": "RSVP",
+  "accept": "Joyfully accepts",
+  "refus": "Regretfully declines",
+  "email": "Your e-mail:",
+  "name": "Names of guest(s):",
+  "dietery": "Dietery requirements:",
+  "send": "Send"
 }
