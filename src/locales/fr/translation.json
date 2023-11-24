@@ -1,6 +1,7 @@
 {
   "home": "Accueil",
   "date": "Samedi 9 Novembre 2024",
+  "text-home": "Nous avons le plaisir de vous inviter a notre mariage qui aura lieu le 9 novembre 2024, sur la tres ensoleillee cote est australienne. Quoi de mieux que de se reunir pour cet evenement, que la ou notre histoire a commence il y  a maintenant 5 ans. Veuillez decouvrir ici les moindres details de cette journee inoubliable a venir, ou l'on espere vous voir nombreux.",
 
   "location": "Localisation",
   "located": "Arrawarra est situé à 4h au sud de Brisbane et à 6h au nord de Sydney.",
@@ -8,7 +9,7 @@
   "travel": "Voyage",
   "airport": "Aéroports internationaux:",
   "closet": "Notre aéroport le plus proche s'appelle l'aéroport de Coffs Harbour, à seulement 35 minutes.",
-  "place": "Le mariage aura lieu au ''Darlington Beach Resort Holiday'', situé dans la belle ville d'ARRAWARRA.",
+  "place": "Le mariage aura lieu au ''Darlington Beach Resort Holiday'', un camping situé dans la belle ville d'Arrawara.",
 
   "accommodation": "Hébergement",
   "acco": "Des hébergements sont disponibles sur le lieu du mariage. Le mariage aura lieu sur les terrains de jeux",
@@ -21,6 +22,6 @@
   "refus": "Refuse avec regret",
   "email": "Votre email:",
   "name": "Noms des invités:",
-  "dietery ": "Exigences diététiques:",
+  "dietery": "Exigences diététiques:",
   "send": "Envoyer"
 }

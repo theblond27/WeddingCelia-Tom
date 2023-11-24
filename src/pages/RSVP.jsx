@@ -37,13 +37,13 @@ const RSVP = () => {
       <Header />
       <Navbar />
       <div className='grid md:mt-6'>
-        <div className=' mt-8 px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
+        <div className=' mt-4 px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
           <div className='text-text text-2xl mb-4 text-center'>RSVP</div>
           <form className='mb-6 text-center' onSubmit={sendEmail}>
 
             {/* Accepted/Decline */}
-            <fieldset>
-              <div className='flex items-center mb-4 '>
+            <fieldset className='items-center align-items'>
+              <div className='flex items-center mb-4 mt-4'>
                 <input 
                   className='w-4 h-4' 
                   type='checkbox' 
@@ -53,7 +53,7 @@ const RSVP = () => {
                 />
                 <label className='ms-2 text-text'>{t('accept')}</label>
               </div>
-              <div className='flex items-center mb-4'>
+              <div className='flex items-center mb-10'>
                 <input 
                   className='w-4 h-4' 
                   type='checkbox' 

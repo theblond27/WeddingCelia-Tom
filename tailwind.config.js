@@ -16,7 +16,8 @@ export default {
 
     },
     fontFamily: {
-      'title': 'Mrs Saint Delafield'
+      'title': 'Mrs Saint Delafield', 
+      'font-text': 'Ephesis'
     },
     extend: {},
   },
