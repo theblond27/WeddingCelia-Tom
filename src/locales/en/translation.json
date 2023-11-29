@@ -4,18 +4,25 @@
   "text-home": "We are delighted to invite you to our wedding on November 9, 2024, on Australia's sunny east coast. What better way to get together for this event than where our story began 5 years ago. Please discover here all the details of this unforgettable day, where we hope to see many of you.",
 
   "location": "Location",
-  "place": "The wedding will bake place at ''Darlington Beach Resort Holiday'', a campsite located in the beautiful town of Arrawara",
+  "location_1": "The wedding will bake place at ''Darlington Beach Resort Holiday'', a campsite located in the beautiful town of Arrawara",
+  "location_2": "Arrawara is a small fishing village of 1,800 inhabitants, just 4km or 6 minutes' drive from Corindi Beach, where we're staying. Offering a magnificent panorama of the Pacific Ocean, a multitude of activities await you on site: surfing, swimming, beach walks, and breathtaking views of the Solitary Islands Marine Park.",
 
   "travel": "Travel",
-  "located": "Arrawarra is located 4h south of Brisbane and 6h north of Sydney.",
-  "airport": "International airports:",
-  "closet": "Our closet airport is called Coffs Harbour Airport, only 35min away.",
+  "travel_1": "Travel tips",
+  "travel_2": "1. Tourist visa :",
+  "travel_3": "The first step to coming to Australia is to obtain a 3-month tourist visa! It's totally free, and can be obtained directly online. We advise you to start as soon as your travel dates have been set, and your flight booked. For more information, please visit the following government website:",
+  "travel_4": "2. How to get here :",
+  "travel_5": "The nearest international airports to the wedding venue are Gold Coast International Airport (2hrs 30mins drive), Brisbane International Airport (4hrs drive) and Sydney Kingsford Smith International Airport (6hrs drive). You can then choose between two options: fly from Sydney or Brisbane to Coffs Harbour Domestic Airport (35-minute drive), or hire a car directly on arrival in Australia.",
+  "travel_6": "3. How to get dressed :",
+  "travel_7": "November is the start of the summer season in New South Wales. With an average temperature of 20 degrees, say goodbye to jumpers and hats, and hello to flip-flops and bikinis! Beware of inclement weather, though, as it can rain during this period. And above all, the sun beats down hard here, so don't forget your sun cream 50, which will prove to be your best ally !",
+  "travel_8": "4. How to get around :",
+  "travel_9": "We strongly advise you to hire a car for your travels in our region. In fact, as the area is rural and has very little public transport, it will be more pleasant for you to travel freely in the surrounding area. We advise you to find out from your country of origin whether your foreign driving licence is recognised for driving in Australia. If it is not, you will need an international licence. Remember, Anglo drivers drive on the left!",
+  "travel_10": "For more personalised advice, don't hesitate to contact us and we'll be delighted to help you organise your event!",
+
 
   "accommodation": "Accommodation",
-  "acco": "Accomodation are available at the wedding venue. The wedding will happen at the playing fields",
-  "accomo": "You're weclome to book wherever you would like in the park, the closed accommodation are the one surranding the playing fields.",
-  "look": "Have a look at their website:",
-  "book": "To book, use the reference #177010",
+  "accomodation_1": "The campsite where we'll be staying offers on-site accommodation at all price levels. There's something for everyone: villas, cottages, safari tents and even pitches for tents and vans. We invite you to visit their website and book your desired pitch online. The map below shows the exact location of the wedding in the playing fields. If you wish to book the cottages around the wedding venue, please take GDV7-8-9-10 or PV2-4-6-8-10-12-14-16.",
+  "book": "To book, use the reference #147010",
 
   "rsvp": "RSVP",
   "accept": "Joyfully accepts",

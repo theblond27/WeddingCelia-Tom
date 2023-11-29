@@ -1,21 +1,29 @@
 {
   "home": "Accueil",
   "date": "Samedi 9 Novembre 2024",
-  "text-home": "Nous avons le plaisir de vous inviter a notre mariage qui aura lieu le 9 novembre 2024, sur la tres ensoleillee cote est australienne. Quoi de mieux que de se reunir pour cet evenement, que la ou notre histoire a commence il y  a maintenant 5 ans. Veuillez decouvrir ici les moindres details de cette journee inoubliable a venir, ou l'on espere vous voir nombreux.",
+  "text-home": "Nous avons le plaisir de vous inviter a notre mariage qui se déroulera le 9 novembre 2024 sur la très ensoleillée côte est australienne. Quoi de mieux que de se réunir pour cet événement, que là ou notre histoire a commencé il y  a maintenant 5 ans. Veuillez découvrir ici les moindres détails de cette journée inoubliable à venir, ou l'on espère vous voir nombreux!",
 
   "location": "Localisation",
-  "located": "Arrawarra est situé à 4h au sud de Brisbane et à 6h au nord de Sydney.",
+  "location_1": "Le mariage aura lieu au « Darlington Beach Holiday Resort », un camping situé dans la belle ville d'Arrawara.",
+  "location_2": "Arrawara est un petit village de pêcheur de 1800 habitants, situé à seulement 4 km, soit 6 mn en voiture de Corindi Beach, là où nous résidons. Offrant un panorama magnifique sur l'océan Pacifique, une multitude d'activités vous attendent sur place : surf, baignades, balades en bord de plage, et vue imprenable sur le parc marin de Solitary Islands.",
 
   "travel": "Voyage",
-  "airport": "Aéroports internationaux:",
-  "closet": "Notre aéroport le plus proche s'appelle l'aéroport de Coffs Harbour, à seulement 35 minutes.",
-  "place": "Le mariage aura lieu au ''Darlington Beach Resort Holiday'', un camping situé dans la belle ville d'Arrawara.",
+  "travel_1": "Conseils de voyage",
+  "travel_2": "1. Le visa touriste :",
+  "travel_3": "Première étape pour venir en sol australien : obtenir un visa touriste de 3 mois ! Il est totalement gratuit, et peut-être obtenu directement en ligne. Nous vous conseillons de vous y prendre dès que vos dates de voyage seront fixées, et que votre vol sera réservé. Pour plus de renseignements, veuillez suivre le site internet du gouvernement suivant : ",
+  "travel_4": "2. Comment venir :",
+  "travel_5": "Les aéroports internationaux les plus proches du lieu du mariage sont l'Aéroport international de Gold Coast (2h30 de route), l'Aéroport international de Brisbane (4h de route) et l'Aéroport international Kingsford-Smith de Sydney (6h de route). Vous pourrez ensuite choisir entre deux options : par avion et relier Sydney où Brisbane à l'Aéroport domestique de Coffs Harbour (35 mn de route), ou bien en louant une voiture directement à votre arrivée en terre australienne.",
+  "travel_6": "3. Comment se vêtir :",
+  "travel_7": "En novembre, c'est le début de la belle saison en Nouvelle-Galles-du-Sud. Avec une moyenne de 20 degrés, vous pourrez sortir vos paréos et maillots de bain! Attention tout de même aux intempéries, les pluies pouvant être au rendez-vous durant cette période. Et surtout, n'oubliez pas d'emporter votre crème solaire 50 qui s'avèrera être votre meilleure alliée !",
+  "travel_8": "4. Comment se déplacer :",
+  "travel_9": "Nous vous conseillons fortement de louer une voiture pour vos déplacements dans notre région. En effet, la zone étant rurale et donc très pauvre en transports en commun, il vous sera plus agréable de librement circuler aux alentours. Selon votre pays d'origine, nous vous invitons à vous renseigner si votre permis de conduire étranger est reconnu pour conduire sur le territoire australien. Si ce n'est pas le cas, le permis international sera à prévoir. Pour rappel, les anglo conduisent à gauche !",
+  "travel_10": "Pour plus de conseils personnalisés n'hésitez pas à nous contacter, et nous nous ferons un plaisir de vous accompagner dans l'organisation de votre venue !",
 
   "accommodation": "Hébergement",
-  "acco": "Des hébergements sont disponibles sur le lieu du mariage. Le mariage aura lieu sur les terrains de jeux",
-  "accomo": "Vous pouvez réserver où vous le souhaitez dans le parc, les hébergements fermés sont ceux qui entourent les terrains de jeux.",
-  "look": "Jetez un oeil à leur site internet:",
-  "book": "Pour réserver, utilisez la référence #177010",
+  "accomodation_1": "Le camping où aura lieu notre mariage offre des hébergements sur place, et a tous les prix. Il y en a pour tous les gouts : villas, cottages, tentes safaris et même des emplacements pour tentes et vans. Nous vous invitons donc à consulter leur site web et à réserver en ligne votre emplacement souhaitons. La carte ci-dessous indique le lieu exacte du mariage, situé au niveau des « playings fields ». Si vous souhaitez réserver les cottages places tout autour du lieu du mariage, veuillez prendre les GDV7-8-9-10 ou bien les PV2-4-6-8-10-12-14-16.",
+  "book": "Pour réserver, utilisez la référence #147010",
+
+  "located": "Arrawarra est situé à 4h au sud de Brisbane et à 6h au nord de Sydney.",
 
   "rsvp": "RSVP",
   "accept": "Accepte avec joie",

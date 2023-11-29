@@ -1,19 +1,34 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import i18n from '../i18n';
+import Dropdown from './Dropdown';
 
 const Header = () => {
 
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language); // i18n.language contains the language assigned to lng in i18n.js file.
   const { t } = useTranslation();
   const [open, setOpen] = useState(false)
+  let src = ''
+  if(selectedLanguage == 'en') {
+    src = 'src/img/english.png'
+  } else if ((selectedLanguage == 'fr')) {
+    src = 'src/img/france.png'
+  } else {
+    src = 'src/img/japan.png'
+  }
+  // const langue = [
+  //   { value: "fr", label: "Francais", icon: FrIcon },
+  //   { value: "en", label: "English", icon: FrIcon },
+  //   { value: "jp", label: "Japonais", icon: FrIcon }
+  // ];
 
   const chooseLanguage = (e) => {
-    console.log(e)
+    console.log(e.target.alt)
     e.preventDefault();
-    i18n.changeLanguage(e.target.value);   // i18n.changeLanguage() is used to change the language assigned to lng in i18n.js file.
-    setSelectedLanguage(e.target.value);
-    console.log('Value',e.target.value)
+    i18n.changeLanguage(e.target.alt);   // i18n.changeLanguage() is used to change the language assigned to lng in i18n.js file.
+    setSelectedLanguage(e.target.alt);
+    console.log('Value',e.target.alt)
+    setOpen(!open)
   }
 
   const onClick = () => {
@@ -22,19 +37,21 @@ const Header = () => {
 
   return (
     <div className='relative'>
-      <div className='absolute top-4 right-8 md:top-24 md:right-20 h-5 w-5'>
-        <button onClick={onClick} className='ml-2'>
-          {selectedLanguage}
-        </button>
+      {/* <Dropdown /> */}
+      <div className='absolute top-6 right-6 md:top-24 md:right-20 h-5 w-5'>
         {open ? (
-          <select className='w-16 bg-cadre' defaultValue={selectedLanguage} onChange={chooseLanguage}>
-            <option onClick={onClick} className='text-text text-xs md:text-lg' value="fr">Francais</option>
-            <option onClick={onClick} className='text-text text-xs md:text-lg' value="en">English</option>
-            <option onClick={onClick} className='text-text text-xs md:text-lg' value="jp">日本語</option>
-          </select>
-          ): null
-        }
-        
+          <div className='w-6 md:w-8'> 
+            <img className='cursor-pointer' onClick={chooseLanguage} alt="fr" src='src\img\france.png'/>
+            <img className='cursor-pointer' onClick={chooseLanguage} alt="en" src='src\img\english.png'/>
+            <img className='cursor-pointer' onClick={chooseLanguage} alt="jp" src='src\img\japan.png'/>
+          </div>
+          
+          ): (
+            <button onClick={onClick} className='w-6 md:w-8'>
+              <img className='cursor-pointer' src={src}/>
+            </button>
+          )
+        } 
       </div>
       <img className='w-full top-0' src="src/img/Header.webp" alt="React Image" /> 
       <div className='w-full h-30 flex flex-col items-center justify-center md:mt-2 mt-10 mb-10'>

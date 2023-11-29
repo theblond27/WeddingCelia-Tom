@@ -10,13 +10,13 @@ const Home = () => {
     <div>
       <Header />
       <Navbar />
-      <div className='flex justify-center md:mt-8 mt-4'>
-        <p className='text-center text-text md:max-w-4xl'>
+      <div className='flex justify-center md:mt-8 mt-4 px-1'>
+        <p className='text-center text-text font-xl md:max-w-4xl font-parisienne md:text-2xl text-lg'>
           {t('text-home')}   
         </p>
       </div>
       <div className='flex justify-center px-1 md:mt-8 mt-4'>
-          <img className='md:max-w-4xl rounded-sm' src="src\img\DSC03282.jpg" alt="React Image" /> 
+          <img className='md:max-w-4xl rounded-sm' src="src\img\homeImg.webp" alt="React Image" /> 
       </div>
     </div>
   )

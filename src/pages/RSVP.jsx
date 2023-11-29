@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import { useTranslation } from 'react-i18next'
@@ -7,30 +7,20 @@ import emailjs from '@emailjs/browser'
 const RSVP = () => {
   const { t } = useTranslation();
 
-  const [formValues, setFormValues] = useState({});
-  const handleChange = (e) => {
-    setFormValues({ ...formValues, [e.target.id]: e.target.value });
-  }
-  // const form = useRef()
+  const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault()
-    console.log(formValues)
-    Email.send({
-      Host : "smtp.elasticemail.com",
-      Username : "dsmet.q@gmail.com",
-      Password : "483232DE34390FC993B3D4F6A6DA860ED8D2",
-      To : 'dsmet.q@gmail.com',
-      From : `${formValues.email}`,
-      Subject : "Wedding Celia & Tomoaki",
-      Body : `Person: ${formValues.guests}`
-  }).then(message => alert(message));
-  }
-
-  
-
-  
-  
+    e.preventDefault();
+    emailjs.sendForm('service_73ebvuh', 'template_r9dhiis', form.current, '_YBf9rvVuowapNLk0')
+      .then((result) => {
+        console.log(form.current)
+          console.log(result.text);
+          alert("Message Send")
+          e.target.reset()
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <div>
@@ -38,8 +28,8 @@ const RSVP = () => {
       <Navbar />
       <div className='grid md:mt-6'>
         <div className=' mt-4 px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
-          <div className='text-text text-2xl mb-4 text-center'>RSVP</div>
-          <form className='mb-6 text-center' onSubmit={sendEmail}>
+          <div className='text-text text-2xl mb-4 text-center font-parisienne md:text-4xl'>{t("rsvp")}</div>
+          <form ref={form} className='mb-6 text-center' onSubmit={sendEmail}>
 
             {/* Accepted/Decline */}
             <fieldset className='items-center align-items'>
@@ -48,8 +38,9 @@ const RSVP = () => {
                   className='w-4 h-4' 
                   type='checkbox' 
                   id='accepted' 
+                  name='accepted'
                   value={'accepted'}
-                  onChange={handleChange}
+                  // onChange={handleChange}
                 />
                 <label className='ms-2 text-text'>{t('accept')}</label>
               </div>
@@ -58,8 +49,9 @@ const RSVP = () => {
                   className='w-4 h-4' 
                   type='checkbox' 
                   id='declined' 
+                  name='declined'
                   value={'declined'}
-                  onChange={handleChange}
+                  // onChange={handleChange}
                 />
                 <label className='ms-2 text-text'>{t('refus')}</label>
               </div>
@@ -71,8 +63,9 @@ const RSVP = () => {
               className='rounded-lg p-2.5 w-72 mb-3 border-beige border-4' 
               type='email' 
               id='email' 
-              value={formValues.email || ""}
-              onChange={handleChange}
+              name='email'
+              // value={formValues.email || ""}
+              // onChange={handleChange}
             />
 
             {/* Guests */}
@@ -81,8 +74,10 @@ const RSVP = () => {
               className='rounded-lg p-2.5 h-36 w-72 mb-3 border-beige border-4' 
               type='text' 
               id='guests'
-              value={formValues.guests || ""}
-              onChange={handleChange}>
+              name='guests'
+              // value={formValues.guests || ""}
+              // onChange={handleChange}
+              >
             </textarea>
 
             {/* Dietery */}
@@ -91,11 +86,13 @@ const RSVP = () => {
               className='rounded-lg p-2.5 h-40 w-72 border-beige border-4' 
               type='text' 
               id='diet'
-              value={formValues.diet || ""}
-              onChange={handleChange}>
+              name='diet'
+              // value={formValues.diet || ""}
+              // onChange={handleChange}
+              >
             </textarea>
             <div className='mt-4'>
-              <input className=' text-text text-lg' type='submit' value={t('send')}/>
+              <button className=' text-text text-lg' type='submit'>{t('send')}</button>
             </div>
           </form>
         </div>

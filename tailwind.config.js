@@ -17,7 +17,9 @@ export default {
     },
     fontFamily: {
       'title': 'Mrs Saint Delafield', 
-      'font-text': 'Ephesis'
+      'ephesis': 'Ephesis',
+      'parisienne': 'Parisienne',
+      'pinyon': 'Pinyon Script'
     },
     extend: {},
   },

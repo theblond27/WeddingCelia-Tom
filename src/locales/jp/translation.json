@@ -4,25 +4,37 @@
   "text-home": "2024年11月9日、オーストラリアの太陽が降り注ぐ東海岸での結婚式にご招待できることを嬉しく思います。このイベントのために集まるのに、5年前に私たちの物語が始まった場所以上にふさわしい場所があるでしょうか。この忘れられない一日の詳細はこちらでご覧ください。",
 
   "location": "宿泊施設",
-  "located": "アラワラはブリスベンから南に 4 時間、シドニーから北に 6 時間の場所にあります",
+  "location_1": "結婚式はアラワラの美しい町にあるキャンプ場「ダーリントン ビーチ リゾート ホリデイ」で行われます。",
+  "location_2": "Arrawara est un petit village de pecheur de 1800 habitants, situe a seulement 4km, soit 6mn en voiture de Corindi Beach, la ou nous residons. Offrant un panorama magnifique sur l'ocean pacifique, une multitude d'activites vous attendent sur place : surf, baignades, balades en bord de plage, et vue imprenable sur le parc marin de Solitary Islands.",
+  
 
   "travel": "旅行",
+  "travel_1": "Conseils de voyage",
+  "travel_2": "1. Le visa touriste :",
+  "travel_3": "Premiere etape pour venir en sol australien : obtenir un visa touriste de 3 mois ! Il est totalement gratuit, et peut etre obtenu directement en ligne. Nous vous conseillons de vous y prendre des que vos dates de voyage seront fixees, et que votre vol sera reserve. Pour plus de renseignements, veuillez suivre le site internet du gouvernement suivant :",
+  "travel_4": "2. Comment venir :",
+  "travel_5": "Les aéroports internationaux les plus proches du lieu du mariage sont l'Aéroport international de Gold Coast (2h30 de route), l'Aeroport international de Brisbane (4h de route) et l'Aéroport international Kingsford-Smith de Sydney (6h de route). Vous pourrez ensuite choisir entre deux options : par avion et relier Syndey ou Brisbane a l'Aéroport domestique de Coffs Harbour (35mn de route),ou bien en louant une voiture directement a votre arrivee en terre australienne.",
+  "travel_6": "3. Comment se vetir :",
+  "travel_7": "En novembre, c'est le début de la belle saison en Nouvelle-Galles du Sud. Avec une moyenne de 20 degres, dites adieu aux pulls et bonnets, et bonjour aux tongs et bikinis! Attention tout de meme aux intemperies, les pluies pouvant etre au rendez-vous durant cette periode. Et surtout, le soleil tape fort ici, alors n'oubliez pas la creme solaire 50 qui s'averera etre votre meilleur alliee !",
+  "travel_8": "4. Comment se deplacer :",
+  "travel_9": "Nous vous conseillons fortement de louer une voiture pour vos deplacements dans notre region. En effet, la zone etant rurale et donc tres pauvre en transports en commun, il vous sera plus agreable de librement circuler aux alentours. Nous vous conseillons de vous renseigner selon votre pays d'origine si votre permis de conduire etranger est reconnu pour conduire sur le territoire australien. S'il ne l'est pas, le permis international sera a prevoir. Pour rappel, les anglo conduisent a gauche !",
+  "travel_10": "Pour plus de conseils personnalises, n'hesitez pas a nous contacter et nous nous ferons un plaisir de vous accompagner pour l'organisation !",
+
   "airport": "国際空港:",
   "closet": "私たちのクローゼットの空港はコフスハーバー空港と呼ばれ、わずか35分の距離にあります",
-  "place": "結婚式はアラワラの美しい町にあるキャンプ場「ダーリントン ビーチ リゾート ホリデイ」で行われます。",
 
   "accommodation": "宿泊施設",
-  "acco": "結婚式場内に宿泊施設をご用意しております。結婚式は競技場で行われるでしょう」、",
-  "accomo": "公園内のどこでもご予約いただけます。閉鎖されている宿泊施設は競技場を囲んでいます。",
-  "look": "彼らのウェブサイトを見てください:",
-  "book": "予約するには、参照番号 #177010 を使用してください。",
+  "accomodation_1": "Le camping ou aura lieu notre mairage offre des hebergements sur place, et a tous les prix. Il y en a pour tous les gouts : villas, cottages, tentes safaris et meme des emplacements pour tentes et vans. Nous vous invitons donc a consulter leur site web et a reserver en ligne votre emplacement souhaite. La carte ci-dessous indique le lieu exacte du mariage, situe au niveau des 'playing fields'. Si vous souhaitez reserver les cottages places tout autour du lieu du mariage, veuillez prendre les GDV7-8-9-10 ou bien les PV2-4-6-8-10-12-14-16.",
+  "book": "予約するには、参照番号 #147010 を使用してください。",
+
+  "located": "アラワラはブリスベンから南に 4 時間、シドニーから北に 6 時間の場所にあります",
 
   "rsvp": "予約",
   "accept": "喜んで受け入れます",
   "refus": "残念ながらお断りします",
   "email": "あなたの電子メール:",
   "name": "ゲストのお名前:",
-  "dietery ": "食事要件:",
+  "dietery": "食事要件:",
   "send": "送信"
   
   
