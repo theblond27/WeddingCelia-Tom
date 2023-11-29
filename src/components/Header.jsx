@@ -4,7 +4,7 @@ import i18n from '../i18n';
 import FrIcon from '../assets/france.png'
 import EnIcon from '../assets/english.png'
 import JpIcon from '../assets/japan.png'
-import HeaderImg from '../assets/Header.webp'
+import headerImg from '../assets/Header.webp'
 
 const Header = () => {
 
@@ -13,11 +13,11 @@ const Header = () => {
   const [open, setOpen] = useState(false)
   let src = ''
   if(selectedLanguage == 'en') {
-    src = {EnIcon}
+    src = EnIcon
   } else if ((selectedLanguage == 'fr')) {
-    src = {FrIcon}
+    src = FrIcon
   } else {
-    src = {JpIcon}
+    src = JpIcon
   }
 
   const chooseLanguage = (e) => {
@@ -49,7 +49,7 @@ const Header = () => {
           )
         } 
       </div>
-      <img className='w-full top-0' src={HeaderImg} alt="React Image" /> 
+      <img className='w-full top-0' src={headerImg} alt="React Image" /> 
       <div className='w-full h-30 flex flex-col items-center justify-center md:mt-2 mt-10 mb-10'>
         <h1 className='text-text text-4xl'>Celia & Tomoaki</h1>
         <h2 className='text-text text-2xl'>{t("date")}</h2>
