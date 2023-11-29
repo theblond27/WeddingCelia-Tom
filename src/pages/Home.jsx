@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import { useTranslation } from 'react-i18next'
+import homeImg from '../assets/homeImg.webp'
 
 const Home = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Home = () => {
         </p>
       </div>
       <div className='flex justify-center px-1 md:mt-8 mt-4'>
-          <img className='md:max-w-4xl rounded-sm' src="src\img\homeImg.webp" alt="React Image" /> 
+          <img className='md:max-w-4xl rounded-sm' src={homeImg} alt="React Image" /> 
       </div>
     </div>
   )

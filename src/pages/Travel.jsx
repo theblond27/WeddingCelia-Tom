@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import { useTranslation } from 'react-i18next'
+import travelImg from '../assets/travelImg.webp'
 
 const Travel = () => {
   const { t } = useTranslation();
@@ -27,7 +28,7 @@ const Travel = () => {
           <p className='md:max-w-4xl'>{t('travel_9')}<br/><br/></p>
           <p className='md:max-w-4xl text-center font-parisienne text-2xl'>{t('travel_10')}<br/><br/></p>
           <div className='flex mt-4 mb-2'>
-            <img className='md:max-w-4xl rounded-sm' src="src\assets\travelImg.webp" alt="React Image" /> 
+            <img className='md:max-w-4xl rounded-sm' src={travelImg} alt="React Image" /> 
           </div>
         </div>
       </div>

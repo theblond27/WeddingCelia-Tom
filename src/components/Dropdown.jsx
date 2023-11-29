@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import FrIcon from '../img/france.png'
-import EnIcon from '../img/english.png'
-import JpIcon from '../img/japan.png'
+import FrIcon from '../assets/france.png'
+import EnIcon from '../assets/english.png'
+import JpIcon from '../assets/japan.png'
 import i18n from '../i18n';
 
 const langues = [

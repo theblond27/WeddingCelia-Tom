@@ -9,7 +9,6 @@ export default function Modal({ onClose}) {
         e.preventDefault();
         i18n.changeLanguage(e.target.value);   // i18n.changeLanguage() is used to change the language assigned to lng in i18n.js file.
         setSelectedLanguage(e.target.value);
-        console.log('Value',e.target.value)
     }
 
 

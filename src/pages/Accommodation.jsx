@@ -3,6 +3,8 @@ import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import ModalImage from '../components/ModalImage'
 import { useTranslation } from 'react-i18next'
+import HolidayPark from '../assets/HolidayPark.webp'
+import maps from '../assets/maps.png'
 
 const Accommodation = () => {
   const { t } = useTranslation();
@@ -21,11 +23,11 @@ const Accommodation = () => {
           <a className='text-text hover:underline text-center mt-6' target='_blank' href='https://www.nrmaparksandresorts.com.au/darlington-beach/'>NRMA Parks and Resorts</a>
           <p className='text-text text-center md:max-w-4xl font-parisienne'>{t('book')}</p>
           <div className='flex mt-4 mb-2 justify-center'>
-            <img className='md:max-w-4xl rounded-sm' src="src\img\HolidayPark.webp" alt="Download the map" /> 
+            <img className='md:max-w-4xl rounded-sm' src={HolidayPark} alt="Download the map" /> 
           </div>
           <p className='text-text text-md text-center font-parisienne'> Vue d'un cottage sur les Playing fields (lieu du mariage)</p>
           <div className='flex mt-4 mb-2 justify-center'>
-            <img onClick={() => setShowModal(true)} className='md:max-w-lg rounded-sm cursor-pointer' src="src\img\maps.png" alt="Download the map" /> 
+            <img onClick={() => setShowModal(true)} className='md:max-w-lg rounded-sm cursor-pointer' src={maps} alt="Download the map" /> 
           </div>
           <ModalImage onClose={handleClose} visible={showModal}/>
           <p className='text-text text-md text-center font-parisienne'>Cliquez sur la carte pour zoomer</p>

@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import i18n from '../i18n';
-import Dropdown from './Dropdown';
+import FrIcon from '../assets/france.png'
+import EnIcon from '../assets/english.png'
+import JpIcon from '../assets/japan.png'
+import HeaderImg from '../assets/Header.webp'
 
 const Header = () => {
 
@@ -10,24 +13,17 @@ const Header = () => {
   const [open, setOpen] = useState(false)
   let src = ''
   if(selectedLanguage == 'en') {
-    src = 'src/img/english.png'
+    src = {EnIcon}
   } else if ((selectedLanguage == 'fr')) {
-    src = 'src/img/france.png'
+    src = {FrIcon}
   } else {
-    src = 'src/img/japan.png'
+    src = {JpIcon}
   }
-  // const langue = [
-  //   { value: "fr", label: "Francais", icon: FrIcon },
-  //   { value: "en", label: "English", icon: FrIcon },
-  //   { value: "jp", label: "Japonais", icon: FrIcon }
-  // ];
 
   const chooseLanguage = (e) => {
-    console.log(e.target.alt)
     e.preventDefault();
     i18n.changeLanguage(e.target.alt);   // i18n.changeLanguage() is used to change the language assigned to lng in i18n.js file.
     setSelectedLanguage(e.target.alt);
-    console.log('Value',e.target.alt)
     setOpen(!open)
   }
 
@@ -53,7 +49,7 @@ const Header = () => {
           )
         } 
       </div>
-      <img className='w-full top-0' src="src/img/Header.webp" alt="React Image" /> 
+      <img className='w-full top-0' src={HeaderImg} alt="React Image" /> 
       <div className='w-full h-30 flex flex-col items-center justify-center md:mt-2 mt-10 mb-10'>
         <h1 className='text-text text-4xl'>Celia & Tomoaki</h1>
         <h2 className='text-text text-2xl'>{t("date")}</h2>
