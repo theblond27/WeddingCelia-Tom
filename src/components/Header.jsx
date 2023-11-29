@@ -37,9 +37,9 @@ const Header = () => {
       <div className='absolute top-6 right-6 md:top-24 md:right-20 h-5 w-5'>
         {open ? (
           <div className='w-6 md:w-8'> 
-            <img className='cursor-pointer' onClick={chooseLanguage} alt="fr" src='src\img\france.png'/>
-            <img className='cursor-pointer' onClick={chooseLanguage} alt="en" src='src\img\english.png'/>
-            <img className='cursor-pointer' onClick={chooseLanguage} alt="jp" src='src\img\japan.png'/>
+            <img className='cursor-pointer' onClick={chooseLanguage} alt="fr" src={FrIcon}/>
+            <img className='cursor-pointer' onClick={chooseLanguage} alt="en" src={EnIcon}/>
+            <img className='cursor-pointer' onClick={chooseLanguage} alt="jp" src={JpIcon}/>
           </div>
           
           ): (
