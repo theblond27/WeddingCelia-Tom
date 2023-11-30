@@ -92,7 +92,7 @@ const RSVP = () => {
               >
             </textarea>
             <div className='mt-4'>
-              <button className=' text-text text-lg' type='submit'>{t('send')}</button>
+              {/* <button className=' text-text text-lg' type='submit'>{t('send')}</button> */}
             </div>
           </form>
         </div>

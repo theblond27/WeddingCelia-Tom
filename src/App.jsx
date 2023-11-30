@@ -13,8 +13,7 @@ function App() {
 
   if(open) {
     return (
-        <Modal className='full-screen' open={open} onClose={() => setOpen(false)}>
-        </Modal>
+        <Modal className='full-screen' open={open} onClose={() => setOpen(false)}></Modal>
     )
   } else {
     return (
@@ -32,18 +31,6 @@ function App() {
       </>
     )
   }
-  return (
-    <>
-    
-      {/* <button className='flex gap-2 items-center justify-center py-2 px-4 font-semibold shadow-md rounded-lg text-white bg-red-600' onClick={() => setOpen(false)}>
-        
-      </button>
-      <Modal open={open} onClose={() => setOpen(false)}>
-        <div className=''>X</div>
-      </Modal> */}
-      
-    </>
-  )
 }
 
 export default App
