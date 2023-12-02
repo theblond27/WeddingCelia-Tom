@@ -18,7 +18,7 @@ const Accommodation = () => {
       <Header />
       <Navbar />
       <div className='grid'>
-        <div className=' mx-2 mt-4 px-2 py-2 grid md:px-10 md:mx-12 justify-center md:text-2xl text-lg'>
+        <div className=' mx-2 px-2 py-2 grid md:px-10 md:mx-12 justify-center md:text-2xl text-lg'>
           <p className='text-text text-center md:max-w-4xl font-parisienne'>{t('accomodation_1')}</p>
           <a className='text-text hover:underline text-center mt-6' target='_blank' href='https://www.nrmaparksandresorts.com.au/darlington-beach/'>NRMA Parks and Resorts</a>
           <p className='text-text text-center md:max-w-4xl font-parisienne'>{t('book')}</p>

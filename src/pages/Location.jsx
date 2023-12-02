@@ -12,7 +12,7 @@ const Location = () => {
       <Header />
       <Navbar />
       <div className='grid'>
-        <div className='text-text text-md mx-2 mt-4 px-2 py-2 grid md:px-10 md:mx-12 justify-center text-center font-parisienne md:text-2xl text-lg'>
+        <div className='text-text text-md mx-2 px-2 py-2 grid md:px-10 md:mx-12 justify-center text-center font-parisienne md:text-2xl text-lg'>
           <p className='md:max-w-4xl'>{t('location_1')}<br/><br/></p>
           <p className='md:max-w-4xl'>{t('location_2')}</p>
           <div className='flex justify-center mt-8 mb-4'>

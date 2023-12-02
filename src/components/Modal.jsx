@@ -21,12 +21,6 @@ export default function Modal({ onClose }) {
         <button className="cursor-pointer mb-4 text-text text-xl" onClick={chooseLanguage} value="fr">Français</button>
         <button className="cursor-pointer mb-4 text-text text-xl" onClick={chooseLanguage} value="en">English</button>
         <button className="cursor-pointer text-text text-xl" onClick={chooseLanguage} value="jp">日本語</button>
-
-        {/* <select size='3'onChange={chooseLanguage} className="bg-cadre w-28 h-32 text-center text-s appearance-none">  
-            <option className="cursor-pointer mb-4 text-text text-xl" onClick={onClose} value="fr">Français</option>
-            <option className="cursor-pointer mb-4 text-text text-xl" onClick={onClose} value="en">English</option>
-            <option className="cursor-pointer text-text text-xl" onClick={onClose} value="jp">日本語</option>
-        </select> */}
       </div>
     </div>
   )

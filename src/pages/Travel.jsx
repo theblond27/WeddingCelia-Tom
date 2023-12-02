@@ -27,7 +27,7 @@ const Travel = () => {
           <p className='md:max-w-4xl font-parisienne text-2xl underline'>{t('travel_8')}<br/></p>
           <p className='md:max-w-4xl'>{t('travel_9')}<br/><br/></p>
           <p className='md:max-w-4xl text-center font-parisienne text-2xl'>{t('travel_10')}<br/><br/></p>
-          <div className='flex mt-4 mb-2'>
+          <div className='flex mb-2'>
             <img className='md:max-w-4xl rounded-sm' src={travelImg} alt="React Image" /> 
           </div>
         </div>

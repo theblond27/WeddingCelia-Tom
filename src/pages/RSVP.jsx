@@ -29,11 +29,11 @@ const RSVP = () => {
       <div className='grid md:mt-6'>
         <div className=' mt-4 px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
           <div className='text-text text-2xl mb-4 text-center font-parisienne md:text-4xl'>{t("rsvp")}</div>
-          <form ref={form} className='mb-6 text-center' onSubmit={sendEmail}>
+          <form ref={form} className='mb-6 text-center font-parisienne text-2xl' onSubmit={sendEmail}>
 
             {/* Accepted/Decline */}
             <fieldset className='items-center align-items'>
-              <div className='flex items-center mb-4 mt-4'>
+              <div className=' mb-4 mt-4'>
                 <input 
                   className='w-4 h-4' 
                   type='checkbox' 
@@ -44,7 +44,7 @@ const RSVP = () => {
                 />
                 <label className='ms-2 text-text'>{t('accept')}</label>
               </div>
-              <div className='flex items-center mb-10'>
+              <div className='mb-10'>
                 <input 
                   className='w-4 h-4' 
                   type='checkbox' 
@@ -58,7 +58,7 @@ const RSVP = () => {
             </fieldset>
             
             {/* Email */}
-            <label className='block text-text text-lg'>{t('email')}</label>
+            <label className='block text-text'>{t('email')}</label>
             <input 
               className='rounded-lg p-2.5 w-72 mb-3 border-beige border-4' 
               type='email' 
@@ -69,7 +69,7 @@ const RSVP = () => {
             />
 
             {/* Guests */}
-            <label className='block text-text text-lg'>{t('name')}</label>
+            <label className='block text-text'>{t('name')}</label>
             <textarea 
               className='rounded-lg p-2.5 h-36 w-72 mb-3 border-beige border-4' 
               type='text' 
@@ -81,7 +81,7 @@ const RSVP = () => {
             </textarea>
 
             {/* Dietery */}
-            <label className='block  text-text text-lg'>{t('dietery')}</label>
+            <label className='block  text-text'>{t('dietery')}</label>
             <textarea 
               className='rounded-lg p-2.5 h-40 w-72 border-beige border-4' 
               type='text' 
