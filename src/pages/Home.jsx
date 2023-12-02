@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
       <Navbar />
       <div className='flex justify-center md:mt-8 mt-4 px-1'>
-        <p className='text-center text-text font-xl md:max-w-4xl font-parisienne md:text-2xl text-lg'>
+        <p className='text-center text-text md:max-w-4xl font-parisienne md:text-2xl text-lg'>
           {t('text-home')}   
         </p>
       </div>
