@@ -23,13 +23,13 @@
   "accomodation_1": "Le camping où aura lieu notre mariage offre des hébergements sur place, et a tous les prix. Il y en a pour tous les gouts : villas, cottages, tentes safaris et même des emplacements pour tentes et vans. Nous vous invitons donc à consulter leur site web et à réserver en ligne votre emplacement souhaité. La carte ci-dessous indique le lieu exacte du mariage, situé au niveau des « playings fields ». Si vous souhaitez réserver les cottages places tout autour du lieu du mariage, veuillez prendre les GDV7-8-9-10 ou bien les PV2-4-6-8-10-12-14-16.",
   "book": "Pour réserver, utilisez la référence #147010",
 
-  "located": "Arrawarra est situé à 4h au sud de Brisbane et à 6h au nord de Sydney.",
-
-  "rsvp": "RSVP",
+  "deadline": "Please send your reply before February 29, 2024",
   "accept": "Accepte avec joie",
-  "refus": "Refuse avec regret",
+  "refus": "Decline avec regret",
   "email": "Votre email:",
   "name": "Noms des invités:",
   "dietery": "Exigences diététiques:",
+  "message": "Laisser un message:",
+  "later": "Les details du mariage suivront prochainement",
   "send": "Envoyer"
 }

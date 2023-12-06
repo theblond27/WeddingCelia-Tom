@@ -19,16 +19,17 @@
   "travel_9": "We strongly advise you to hire a car for your travels in our region. In fact, as the area is rural and has very little public transport, it will be more pleasant for you to travel freely in the surrounding area. We advise you to find out from your country of origin whether your foreign driving licence is recognised for driving in Australia. If it is not, you will need an international licence. Remember, Anglo drivers drive on the left!",
   "travel_10": "For more personalised advice, don't hesitate to contact us and we'll be delighted to help you organise your event!",
 
-
   "accommodation": "Accommodation",
   "accomodation_1": "The campsite where we'll be staying offers on-site accommodation at all price levels. There's something for everyone: villas, cottages, safari tents and even pitches for tents and vans. We invite you to visit their website and book your desired pitch online. The map below shows the exact location of the wedding in the playing fields. If you wish to book the cottages around the wedding venue, please take GDV7-8-9-10 or PV2-4-6-8-10-12-14-16.",
   "book": "To book, use the reference #147010",
 
-  "rsvp": "RSVP",
+  "deadline": "A traduire",
   "accept": "Joyfully accepts",
   "refus": "Regretfully declines",
   "email": "Your e-mail:",
   "name": "Names of guest(s):",
   "dietery": "Dietery requirements:",
+  "message": "Leave a message:",
+  "later": "Wedding details to follow shortly",
   "send": "Send"
 }

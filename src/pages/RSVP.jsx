@@ -22,13 +22,20 @@ const RSVP = () => {
       });
   };
 
+  const [value, setValue] = useState()
+
+  const onChange = (e) => {
+    setValue(e.target.value)
+    console.log(e.target.value)
+  }
+ 
   return (
     <div>
       <Header />
       <Navbar />
       <div className='grid md:mt-6'>
         <div className=' mt-4 px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
-          <div className='text-text text-2xl mb-4 text-center font-parisienne md:text-4xl'>{t("rsvp")}</div>
+          <div className='text-text text-2xl mb-4 text-center font-parisienne md:text-4xl'>{t("deadline")}</div>
           <form ref={form} className='mb-6 text-center font-parisienne text-2xl' onSubmit={sendEmail}>
 
             {/* Accepted/Decline */}
@@ -40,7 +47,6 @@ const RSVP = () => {
                   id='accepted' 
                   name='accepted'
                   value={'accepted'}
-                  // onChange={handleChange}
                 />
                 <label className='ms-2 text-text'>{t('accept')}</label>
               </div>
@@ -51,7 +57,6 @@ const RSVP = () => {
                   id='declined' 
                   name='declined'
                   value={'declined'}
-                  // onChange={handleChange}
                 />
                 <label className='ms-2 text-text'>{t('refus')}</label>
               </div>
@@ -64,8 +69,6 @@ const RSVP = () => {
               type='email' 
               id='email' 
               name='email'
-              // value={formValues.email || ""}
-              // onChange={handleChange}
             />
 
             {/* Guests */}
@@ -75,24 +78,31 @@ const RSVP = () => {
               type='text' 
               id='guests'
               name='guests'
-              // value={formValues.guests || ""}
-              // onChange={handleChange}
               >
             </textarea>
 
             {/* Dietery */}
             <label className='block  text-text'>{t('dietery')}</label>
             <textarea 
-              className='rounded-lg p-2.5 h-40 w-72 border-beige border-4' 
+              className='rounded-lg p-2.5 h-30 w-72 mb-3 border-beige border-4' 
               type='text' 
               id='diet'
               name='diet'
-              // value={formValues.diet || ""}
-              // onChange={handleChange}
               >
             </textarea>
+
+            {/* Message */}
+            <label className='block  text-text'>{t('message')}</label>
+            <textarea 
+              className='rounded-lg p-2.5 h-30 w-72 border-beige border-4' 
+              type='text' 
+              id='message'
+              name='message'
+              >
+            </textarea>
+            <div className='text-text text-2xl mt-4 text-center font-parisienne md:text-2xl'>{t("later")}</div>
             <div className='mt-4'>
-              {/* <button className=' text-text text-lg' type='submit'>{t('send')}</button> */}
+              {/* <button className=' text-text text-2xl bg-cadre p-2 rounded-md' type='submit'>{t('send')}</button> */}
             </div>
           </form>
         </div>
