@@ -34,8 +34,8 @@ const RSVP = () => {
       <Header />
       <Navbar />
       <div className='grid md:mt-6'>
-        <div className=' mt-4 px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
-          <div className='text-text text-2xl mb-4 text-center font-parisienne md:text-4xl'>{t("deadline")}</div>
+        <div className='px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
+          <div className='text-text text-2xl mb-4 text-center font-parisienne md:text-2xl'>{t("deadline")}</div>
           <form ref={form} className='mb-6 text-center font-parisienne text-2xl' onSubmit={sendEmail}>
 
             {/* Accepted/Decline */}
@@ -74,7 +74,7 @@ const RSVP = () => {
             {/* Guests */}
             <label className='block text-text'>{t('name')}</label>
             <textarea 
-              className='rounded-lg p-2.5 h-36 w-72 mb-3 border-beige border-4' 
+              className='rounded-lg p-2.5 h-32 w-72 mb-3 border-beige border-4' 
               type='text' 
               id='guests'
               name='guests'
@@ -84,7 +84,7 @@ const RSVP = () => {
             {/* Dietery */}
             <label className='block  text-text'>{t('dietery')}</label>
             <textarea 
-              className='rounded-lg p-2.5 h-30 w-72 mb-3 border-beige border-4' 
+              className='rounded-lg p-2.5 h-28 w-72 mb-3 border-beige border-4' 
               type='text' 
               id='diet'
               name='diet'
@@ -94,15 +94,15 @@ const RSVP = () => {
             {/* Message */}
             <label className='block  text-text'>{t('message')}</label>
             <textarea 
-              className='rounded-lg p-2.5 h-30 w-72 border-beige border-4' 
+              className='rounded-lg p-2.5 h-32 w-72 border-beige border-4' 
               type='text' 
               id='message'
               name='message'
               >
             </textarea>
-            <div className='text-text text-2xl mt-4 text-center font-parisienne md:text-2xl'>{t("later")}</div>
+            <div className='text-text text-2xl mt-8 text-center font-parisienne md:text-2xl'>{t("later")}</div>
             <div className='mt-4'>
-              {/* <button className=' text-text text-2xl bg-cadre p-2 rounded-md' type='submit'>{t('send')}</button> */}
+              <button className=' text-text text-2xl bg-cadre p-2  mt-4 rounded-md' type='submit'>{t('send')}</button>
             </div>
           </form>
         </div>
