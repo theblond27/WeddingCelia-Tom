@@ -13,16 +13,15 @@ const RSVP = () => {
     e.preventDefault();
     emailjs.sendForm('service_73ebvuh', 'template_r9dhiis', form.current, '_YBf9rvVuowapNLk0')
       .then((result) => {
-        console.log(form.current)
-          console.log(result.text);
-          alert("Message Send")
-          e.target.reset()
+        console.log(result.text);
+        alert("Message Send")
+        e.target.reset()
       }, (error) => {
           console.log(error.text);
       });
   };
 
-  const [value, setValue] = useState()
+  const [value, setValue] = useState("accepted")
 
   const onChange = (e) => {
     setValue(e.target.value)
@@ -35,11 +34,18 @@ const RSVP = () => {
       <Navbar />
       <div className='grid md:mt-6'>
         <div className='px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
-          <div className='text-text text-2xl mb-4 text-center font-parisienne md:text-2xl'>{t("deadline")}</div>
+          <div className='text-text text-2xl text-center font-parisienne md:text-2xl'>{t("deadline")}</div>
           <form ref={form} className='mb-6 text-center font-parisienne text-2xl' onSubmit={sendEmail}>
 
             {/* Accepted/Decline */}
-            <fieldset className='items-center align-items'>
+            <select className='bg-cadre mb-8 mt-8 text-text text-2xl p-2 rounded-md' name={value} onChange={onChange}>
+              <option className='text-xl font-parisienne' name='accepted' value='accepted'>{t('accept')}</option>
+              <option className='text-xl font-parisienne' name='declined' value='declined'>{t('refus')}</option>
+            </select>
+            
+
+
+            {/* <fieldset className='items-center align-items'>
               <div className=' mb-4 mt-4'>
                 <input 
                   className='w-4 h-4' 
@@ -61,7 +67,7 @@ const RSVP = () => {
                 <label className='ms-2 text-text'>{t('refus')}</label>
               </div>
             </fieldset>
-            
+             */}
             {/* Email */}
             <label className='block text-text'>{t('email')}</label>
             <input 

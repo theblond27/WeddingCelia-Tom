@@ -11,9 +11,9 @@ const Home = () => {
     <div>
       <Header />
       <Navbar />
-      <div className='flex justify-center md:mt-8 mt-4 px-1'>
+      <div className='flex justify-center md:mt-8 px-1'>
         <p className='text-center text-text md:max-w-4xl font-parisienne md:text-2xl text-lg'>
-          {t('text-home')}   
+          {t('text-home')} 
         </p>
       </div>
       <div className='flex justify-center px-1 md:mt-8 mt-4'>

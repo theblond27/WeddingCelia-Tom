@@ -1,7 +1,7 @@
 {
   "home": "Accueil",
   "date": "Samedi 9 Novembre 2024",
-  "text-home": "Nous avons le plaisir de vous inviter à notre mariage qui se déroulera le 9 novembre 2024 sur la très ensoleillée côte est australienne. Quoi de mieux que de se réunir pour cet événement, que là ou notre histoire a commencé il y  a maintenant 5 ans. Veuillez découvrir ici les moindres détails de cette journée inoubliable à venir, ou l'on espère vous voir nombreux!",
+  "text-home": "Nous avons le plaisir de vous inviter à notre mariage qui se déroulera le 9 novembre 2024 sur la très ensoleillée côte-est australienne. Quoi de mieux que de se réunir pour cet événement, que là où notre histoire a commencé il y a maintenant 5 ans. Veuillez découvrir ici les moindres détails de cette journée inoubliable à venir, où l'on espère vous voir nombreux!",
 
   "location": "Localisation",
   "location_1": "Le mariage aura lieu au « Darlington Beach Holiday Resort », un camping situé dans la belle ville d'Arrawara.",
@@ -12,25 +12,28 @@
   "travel_2": "1. Le visa touriste :",
   "travel_3": "Première étape pour venir en sol australien : obtenir un visa touriste de 3 mois ! Il est totalement gratuit, et peut-être obtenu directement en ligne. Nous vous conseillons de vous y prendre dès que vos dates de voyage seront fixées, et que votre vol sera réservé. Pour plus de renseignements, veuillez suivre le site internet du gouvernement suivant : ",
   "travel_4": "2. Comment venir :",
-  "travel_5": "Les aéroports internationaux les plus proches du lieu du mariage sont l'Aéroport international de Gold Coast (2h30 de route), l'Aéroport international de Brisbane (4h de route) et l'Aéroport international Kingsford-Smith de Sydney (6h de route). Vous pourrez ensuite choisir entre deux options : par avion et relier Sydney où Brisbane à l'Aéroport domestique de Coffs Harbour (35 mn de route), ou bien en louant une voiture directement à votre arrivée en terre australienne.",
+  "travel_5": "Les aéroports internationaux les plus proches du lieu du mariage sont l'Aéroport international de Gold Coast (2h30 de route), l'Aéroport international de Brisbane (4h de route) et l'Aéroport international Kingsford-Smith de Sydney (6h de route). Vous pourrez ensuite choisir entre deux options : par avion et relier Sydney, Brisbane ou Gold Coast à l'Aéroport domestique de Coffs Harbour (35 mn de route), ou bien en louant une voiture directement à votre arrivée en terre australienne.",
   "travel_6": "3. Comment se vêtir :",
   "travel_7": "En novembre, c'est le début de la belle saison en Nouvelle-Galles-du-Sud. Avec une moyenne de 20 degrés, vous pourrez sortir vos paréos et maillots de bain! Attention tout de même aux intempéries, les pluies pouvant être au rendez-vous durant cette période. Et surtout, n'oubliez pas d'emporter votre crème solaire 50 qui s'avèrera être votre meilleure alliée !",
   "travel_8": "4. Comment se déplacer :",
   "travel_9": "Nous vous conseillons fortement de louer une voiture pour vos déplacements dans notre région. En effet, la zone étant rurale et donc très pauvre en transports en commun, il vous sera plus agréable de librement circuler aux alentours. Selon votre pays d'origine, nous vous invitons à vous renseigner si votre permis de conduire étranger est reconnu pour conduire sur le territoire australien. Si ce n'est pas le cas, le permis international sera à prévoir. Pour rappel, les anglo conduisent à gauche !",
-  "travel_10": "Pour plus de conseils personnalisés n'hésitez pas à nous contacter, et nous nous ferons un plaisir de vous accompagner dans l'organisation de votre venue !",
+  "travel_10": "Pour plus de conseils personnalisés, n'hésitez pas à nous contacter, et nous nous ferons un plaisir de vous accompagner dans l'organisation de votre venue !",
 
   "accommodation": "Hébergement",
-  "accomodation_1": "Le camping où aura lieu notre mariage offre des hébergements sur place, et a tous les prix. Il y en a pour tous les gouts : villas, cottages, tentes safaris et même des emplacements pour tentes et vans. Nous vous invitons donc à consulter leur site web et à réserver en ligne votre emplacement souhaité. La carte ci-dessous indique le lieu exacte du mariage, situé au niveau des « playings fields ». Si vous souhaitez réserver les cottages places tout autour du lieu du mariage, veuillez prendre les GDV7-8-9-10 ou bien les PV2-4-6-8-10-12-14-16.",
-  "book": "Pour réserver, utilisez la référence #147010",
+  "accomodation_1": "Le camping où aura lieu notre mariage offre des hébergements sur place, et à tous les prix. Il y en a pour tous les goûts : villas, cottages, tentes safaris et même des emplacements pour tentes et vans. Nous vous invitons donc à consulter leur site web et à réserver en ligne votre emplacement souhaité. La carte ci-dessous indique le lieu exacte du mariage, situé au niveau des « playings fields ». Si vous souhaitez réserver les cottages placés tout autour du lieu du mariage, veuillez prendre les GDV7-8-9-10 ou bien les PV2-4-6-8-10-12-14-16.",
+  
+  "book": "Pour réserver, cliquez ici et utilisez la référence #147010 :",
+  "book1": "Vue d'un cottage sur les Playing fields (lieu du mariage)",
+  "book2": "Cliquez sur la carte pour zoomer",
 
   "rsvp": "RSVP",
-  "deadline": "Merci d'envoyer votre reponse avant le 29 Fevrier 2024",
+  "deadline": "Merci d'envoyer votre réponse avant le 29 Fevrier 2024:",
   "accept": "Accepte avec joie",
-  "refus": "Decline avec regret",
+  "refus": "Décline avec regret",
   "email": "Votre email:",
-  "name": "Noms des invités:",
+  "name": "Nom(s) des invité(s):",
   "dietery": "Exigences diététiques:",
   "message": "Laisser un message:",
-  "later": "Les details du mariage suivront prochainement !",
+  "later": "Les détails du mariage suivront prochainement !",
   "send": "Envoyer"
 }

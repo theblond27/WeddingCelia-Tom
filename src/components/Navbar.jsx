@@ -10,21 +10,20 @@ const Navbar = () => {
       <ul className='bg-cadre rounded-md mb-2 mt-4 flex justify-between h-12 items-center max-w-4xl mx-auto px-2 text-base md:text-lg md:px-8'>
         <li className='text-text flex'>
           <Link to='/'>{t("home")}</Link>
-          
         </li>
-        <div className='text-2xl mb-2'>|</div>
+        <div className='text-text text-xl mb-1'>|</div>
         <li className='text-text '>
           <Link to='/location'>{t("location")}</Link>
         </li>
-        <div className='text-2xl mb-2'>|</div>
+        <div className='text-text text-xl mb-1'>|</div>
         <li className='text-text'>
           <Link to='/travel'>{t("travel")}</Link>
         </li>
-        <div className='text-2xl mb-2'>|</div>
+        <div className='text-text text-xl mb-1'>|</div>
         <li className='text-text'>
           <Link to='/accommodation'>{t("accommodation")}</Link>
         </li>
-        <div className='text-2xl mb-2'>|</div>
+        <div className='text-text text-xl mb-1'>|</div>
         <li className='text-text'>
           <Link to='/rsvp'>{t("rsvp")}</Link>
         </li>
