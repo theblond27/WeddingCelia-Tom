@@ -18,10 +18,11 @@ const Accommodation = () => {
       <Header />
       <Navbar />
       <div className='grid'>
-        <div className='mt-4 mx-2 px-2 py-2 grid md:px-10 md:mx-12 justify-center md:text-2xl text-lg'>
-          <p className='text-text text-center md:max-w-4xl font-parisienne'>{t('accomodation_1')}</p>
-          <p className='text-text text-center md:max-w-4xl font-parisienne mt-6'>{t('book')}</p>
-          <a className='text-text hover:underline text-center underline' target='_blank' href='https://www.nrmaparksandresorts.com.au/darlington-beach/'>NRMA Parks and Resorts</a>
+        <div className='mt-4 mx-2 px-2 py-2 grid md:px-10 md:mx-12 justify-center'>
+          <p className='text-text text-center md:max-w-4xl font-parisienne md:text-2xl text-lg'>{t('accomodation_1')}</p>
+          <p className='text-text text-lg text-center md:max-w-4xl'>{t('accomodation_2')}</p>
+          <p className='text-text text-center md:max-w-4xl font-parisienne mt-6 md:text-2xl text-lg'>{t('book')}</p>
+          <a className='text-text hover:underline text-center underline text-lg' target='_blank' href='https://www.nrmaparksandresorts.com.au/darlington-beach/'>NRMA Parks and Resorts</a>
           <div className='flex mt-4 mb-2 justify-center'>
             <img className='md:max-w-4xl rounded-sm' src={HolidayPark} alt="Download the map" /> 
           </div>
